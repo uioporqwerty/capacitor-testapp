@@ -40,6 +40,9 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths"></meta-data>
         </provider>
+
+        <meta-data android:name="myCustomKey" android:value="This is your value."/>
+
     </application>
 
     <!-- Permissions -->

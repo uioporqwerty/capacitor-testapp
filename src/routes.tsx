@@ -23,6 +23,7 @@ import StatusBarPage from './pages/StatusBar';
 import Storage from './pages/Storage';
 import TextZoom from './pages/TextZoom';
 import ToastPage from './pages/Toast';
+import MetadataConfigPage from './pages/MetadataConfig';
 
 interface Page {
   readonly url: string;
@@ -161,6 +162,16 @@ const routes: Page[] = [
       </span>
     ),
     component: LocalNotificationsPage,
+  },
+  {
+    title: 'Metadata Config',
+    url: '/metadata-config',
+    icon: (
+      <span role="img" aria-label="runner">
+        🏃
+      </span>
+    ),
+    component: MetadataConfigPage,
   },
   {
     title: 'Motion',
